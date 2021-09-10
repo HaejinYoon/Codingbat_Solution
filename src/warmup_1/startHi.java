@@ -1,10 +1,11 @@
 package warmup_1;
 
 public class startHi {
-	public String front22(String str) {
-		  if(str.length()<3)
-		  return str+str+str;
-		  String fe = str.substring(0,2);
-		  return fe+str+fe;
-		}
+	public boolean startHi(String str) {
+		if(str.length()<2)
+		   return false;
+		   if((str.substring(0,2)).equals("hi"))
+		     return true;
+		   return false;
+	}
 }
