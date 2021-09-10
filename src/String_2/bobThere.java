@@ -12,4 +12,8 @@ public class bobThere {
 		}
 		return false;
 	}
+	
+	public boolean bobThereRegex(String str) {
+		return java.util.regex.Pattern.matches(".*?b.b.*?", str);
+	}
 }

@@ -8,4 +8,7 @@ public class endsLy {
 		}
 		return false; 
 	}
+	public boolean endsLyRegex(String str) {
+		return java.util.regex.Pattern.matches(".*ly", str);
+	}
 }

@@ -11,7 +11,7 @@ public class mixStart {
 		  }else
 		  return false;
 		}
-	public boolean mixStart2(String str) {
+	public boolean mixStartRegex(String str) {
 		return java.util.regex.Pattern.matches(".ix.*", str);
 	}
 }
